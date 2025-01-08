@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Gallery - Aliya Batrisha's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <h1>Memories</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Introduction</a>
+        <a href="about.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="hobby.html">Hobbies</a>
+        <a href="album.html">Album</a>
+    </nav>
+    
+    <section class="album-gallery">
+        <h2>Music and Photos</h2>
+        <p><i>This page showcases my favorite music and album photos. You can explore my favorite tracks and images that accompany them.</i></p>
+
+        <audio controls>
+            <source src="music/Lewis Capaldi - Hold Me While You Wait (Lyrics).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="gallery">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/album1.jpg" alt="Album Image 1">
+                        <p><strong>Album Image 1</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album2.jpg" alt="Album Image 2">
+                        <p><strong>Album Image 2</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album3.jpg" alt="Album Image 3">
+                        <p><strong>Album Image 3</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album4.jpg" alt="Album Image 4">
+                        <p><strong>Album Image 4</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album5.jpg" alt="Album Image 5">
+                        <p><strong>Album Image 5</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album6.jpg" alt="Album Image 6">
+                        <p><strong>Album Image 6</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album7.jpg" alt="Album Image 7">
+                        <p><strong>Album Image 7</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album8.jpg" alt="Album Image 8">
+                        <p><strong>Album Image 8</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album9.jpg" alt="Album Image 9">
+                        <p><strong>Album Image 9</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album10.jpg" alt="Album Image 10">
+                        <p><strong>Album Image 10</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album11.jpg" alt="Album Image 11">
+                        <p><strong>Album Image 11</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album12.jpg" alt="Album Image 12">
+                        <p><strong>Album Image 12</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album13.jpg" alt="Album Image 13">
+                        <p><strong>Album Image 13</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album14.jpg" alt="Album Image 14">
+                        <p><strong>Album Image 14</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album15.jpg" alt="Album Image 15">
+                        <p><strong>Album Image 15</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album16.jpg" alt="Album Image 16">
+                        <p><strong>Album Image 16</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album17.jpg" alt="Album Image 17">
+                        <p><strong>Album Image 17</strong></p> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/album18.jpg" alt="Album Image 18">
+                        <p><strong>Album Image 18</strong></p> 
+                    </div>                    
+                    
+                    <div class="swiper-slide">
+                        <video controls>
+                            <source src="img/album_video1.mp4" type="video/mp4">
+                            Your browser does not support the video element.
+                        </video>
+                        <p><strong>Music Video 1</strong></p>
+                    </div>
+                    <div class="swiper-slide">
+                        <video controls>
+                            <source src="img/album_video2.mp4" type="video/mp4">
+                            Your browser does not support the video element.
+                        </video>
+                        <p><strong>Music Video 2</strong></p>
+                    </div>
+               
+                </div>
+                <!-- Pagination and Navigation -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Personal Resume of Aliya Batrisha. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Include Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+</body>
+</html>
